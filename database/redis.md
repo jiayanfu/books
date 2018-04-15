@@ -111,6 +111,27 @@
 ### ZSCAN key cursor [MATCH pattern] [COUNT count]
 
 
+#publish subscribe
+## PUBLISH channel message
+## PUBSUB <subcommand> [arguments]
+## SUBSCRIBE channels [channels...]
+## PSUBSCRIBE <pattern> [<pattern>]
+## PUNSUBSCRIBE <pattern> [<pattern>]
+## UNSUBSCRIBE channels [channels..]
+
+
+# redis transaction
+## start : MULTI
+## QUEUED
+## exec: EXEC 
+## redis 单个命令是原子操作，redis transcation 不是原子操作；即便中间有失败，仍然会执行后面的语句，并且不会回退；transction	 更像是打包的脚本
+## 在transaction执行过程中，其他客户端提交的命令不会插入到事务的执行命令序列中
+## DISCARD 
+## MULTI
+## EXEC
+## UNWATCH
+## WATCH
+
 
 
 
