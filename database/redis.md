@@ -132,7 +132,42 @@
 ## UNWATCH
 ## WATCH
 
+# redis script
 
+# redis connect
+## AUTH 
+## ECHO
+## PING
+## QUIT
+## SELECT 
+
+# redis server
+## BGREWRITEAOF
+## BGSAVE
+## CLINET KILL [ip:port] [ID client-id]
+## CLIENT LIST
+## CLIENT SETNAME connection-name
+## CLIENT GETNAME
+## CLIENT PAUSE timeout
+## CLUSTER slots
+## COMMAND
+## COMMAND COUNT
+## COMMAND GETKEYS 
+## TIME
+## COMMAND INFO 
+## FLUSHALL
+## FLUSHDB
+## DEBUG OBJECT KEY
+## DEBUG SEGFAULT
+## INFO
+## LASTSAVE
+## MONITOR
+## ROLE
+## SAVE
+## SHUTDOWN [SAVE][NOSAVE]
+## SLAVEOF host port
+## SLOWLOG 
+## SYNC 同步主从服务器
 
 
 
